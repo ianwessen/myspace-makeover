@@ -97,8 +97,7 @@ body {
   background: #e5e5e5;
   background-image: url("images/ian-orange.jpg");
   background-size: 100%;
-  background-position: center top;
-  border: 1px solid #cccccc; }
+  background-position: center top; }
 
 .panel {
   margin-bottom: 1em;
