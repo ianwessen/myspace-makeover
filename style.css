@@ -8,6 +8,7 @@ body {
   background: #e5e5e5; }
 
 .container {
+  position: relative;
   display: grid;
   grid-template-columns: 40% 58%;
   grid-column: 2 / 3;
@@ -21,10 +22,9 @@ body {
   display: flex;
   align-items: flex-end;
   top: 0;
+  left: 0;
   height: 100px;
   width: 820px;
-  left: 50%;
-  transform: translateX(-50%) translateX(10px);
   background: #003399; }
 
 .header-nav {
@@ -43,6 +43,14 @@ body {
   margin: 0;
   padding: 0 .5em;
   line-height: 26px; }
+
+.header-nav li a {
+  color: #fff;
+  text-decoration: none; }
+
+.header-nav li a:hover {
+  text-decoration: underline;
+}
 
 .header-nav li:not(:last-of-type):after {
   display: inline-block;
